@@ -44,7 +44,7 @@ public class Estudiante {
         return porcentajeAPagar;
     }
 
-    public void setPorcentajeAPagar(float porcentajeAPagar) {
-        this.porcentajeAPagar = 100 - porcentajeAPagar;
+    public void setPorcentajeAPagar(float porcentajeDescuento) {
+        this.porcentajeAPagar = 100 - porcentajeDescuento;
     }
 }
